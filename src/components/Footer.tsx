@@ -21,6 +21,7 @@ const Footer = () => {
               Data Analyst | Turning Data into Insights
             </p>
           </div>
+          </div>
 
           {/* Quick Links */}
           <nav className="flex flex-wrap justify-center gap-6">
@@ -57,16 +58,6 @@ const Footer = () => {
         {/* Divider */}
         <div className="my-8 border-t border-border/30" />
 
-        {/* Bottom */}
-        {/* <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p className="flex items-center gap-1">
-            © {currentYear} Amreen Shaikh. Made with <Heart className="w-4 h-4 text-primary" /> in Goa, India
-          </p>
-          <p>
-            All Rights Reserved
-          </p>
-        </div>
-      </div> */}
 
       {/* Back to Top Button */}
       <motion.button
